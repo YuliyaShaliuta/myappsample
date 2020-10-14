@@ -1,0 +1,14 @@
+{
+    "mappings": {
+        "logs" : {
+            "properties" : {
+                "timestamp": {
+                  "type": "date"
+                },
+                "geo": {
+                  "type": "geo_point"
+                }
+            }
+        }
+    }
+}
